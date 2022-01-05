@@ -6,6 +6,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -26,5 +27,11 @@ section{
 
 }
 .top-banar{
-    background-image:url(image/_MG_9360.JPG);
+    background-image:url(image/_MG_9368.JPG);
+}
+.middle-banar{
+    background-image:url(image/_MG_9255.JPG);
+}
+.two{
+ color: rgb(153, 228, 15);   
 }
