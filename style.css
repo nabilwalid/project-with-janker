@@ -4,3 +4,27 @@ body{
 .name{
     color: orange;
 }
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    border: solid 5px orange;
+    
+}
+.link-button{
+    text-decoration: none;
+    color: seashell;
+    background-image: linear-gradient( orange,tomato);
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.top-banar{
+    background-image:url(image/_MG_9360.JPG);
+}
