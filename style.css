@@ -4,7 +4,7 @@ body{
 .name{
     color: orange;
 }
-section{
+.flaxible-containar{
     display: flex;
     margin-bottom: 100px;
 }
@@ -15,6 +15,10 @@ section{
 .half-width img{
     width: 80%;
     border: solid 5px orange;
+    
+}
+h2{
+    color: rgb(153, 209, 49);
     
 }
 .link-button{
@@ -34,4 +38,24 @@ section{
 }
 .two{
  color: rgb(153, 228, 15);   
+}
+.box-shaddo{
+    border: rgb(153, 228, 15)  10px ;
+    box-shadow: 10px 10px 15px#a56666;
+    border-radius: 15px;
+    border-left: rgb(241, 245, 5) 10px solid;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+#baby-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,tomato);
+    border-image-slice: 1;
+}
+#hero-developer{
+    border-left: 10px solid;
+    border-image: linear-gradient(white,tomato);
+    border-image-slice: 1;
 }
